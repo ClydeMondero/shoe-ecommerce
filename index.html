@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Shoe Store</h1>
+      <input
+        type="search"
+        name="shoe"
+        id="search"
+        onkeyup="displayShoes()"
+        placeholder="Search for a shoe"
+      />
+    </div>
+    <div class="content">
+      <div class="options">
+        <div class="sort">
+          <span>Sort by price: </span>
+          <select name="price" id="price" onchange="sortShoes()">
+            <option value="None" selected>None</option>
+            <option value="Ascending">Low - High</option>
+            <option value="Descending">High - Low</option>
+          </select>
+        </div>
+
+        <div class="filter">
+          <span>Filter by category:</span>
+          <select name="category" id="category" onchange="displayShoes()">
+            <option value="All" selected>All</option>
+            <option value="Running Shoes">Running Shoes</option>
+            <option value="Basketball Shoes">Basketball Shoes</option>
+          </select>
+        </div>
+      </div>
+      <div class="products-container"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

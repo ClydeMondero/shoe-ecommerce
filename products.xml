@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shoes>
+    <Shoe>
+        <Name>Nike InfinityRN 4</Name>
+        <Location>images/InfinityRN 4.jpg</Location>
+        <Price>8,895</Price>
+        <Category>Running Shoes</Category>
+    </Shoe>
+    <Shoe>
+        <Name>Lebron XXXI 'Queen Conch' EP</Name>
+        <Location>images/Lebron 11.jpg</Location>
+        <Price>11,295</Price>
+        <Category>Basketball Shoes</Category>
+    </Shoe>
+    <Shoe>
+        <Name>Luka 2 PF</Name>
+        <Location>images/Luka 2.jpg</Location>
+        <Price>7,395</Price>
+        <Category>Basketball Shoes</Category>
+    </Shoe>
+    <Shoe>
+        <Name>Nike G.T Cut 3 EP</Name>
+        <Location>images/Nike GT.jpg</Location>
+        <Price>10,295</Price>
+        <Category>Basketball Shoes</Category>
+    </Shoe>
+    <Shoe>
+        <Name>Nike Revolution 6</Name>
+        <Location>images/Revolution 6.jpg</Location>
+        <Price>2,895</Price>
+        <Category>Running Shoes</Category>
+    </Shoe>
+    <Shoe>
+        <Name>Nike Winflo 10</Name>
+        <Location>images/Winflo 10.jpg</Location>
+        <Price>5,495</Price>
+        <Category>Running Shoes</Category>
+    </Shoe>
+    <Shoe>
+        <Name>Zion 3 PF</Name>
+        <Location>images/Zion 3.jpg</Location>
+        <Price>7,895</Price>
+        <Category>Basketball Shoes</Category>
+    </Shoe>
+    <Shoe>
+        <Name>Nike Zoom Fly 5 Premium</Name>
+        <Location>images/Zoom Fly 5.jpg</Location>
+        <Price>9,395</Price>
+        <Category>Running Shoes</Category>
+    </Shoe>
+</Shoes>

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  font-family: monospace;
+  grid-template-rows: 20% 1fr;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  background-color: #2b2c2d;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 2rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.header input {
+  background-color: white;
+  width: 50%;
+  height: 3rem;
+  border-radius: 0.4rem;
+  padding-left: 1rem;
+  color: black;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options {
+  background-color: lightgray;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.options span {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.options select {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.products-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products-container img {
+  scale: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .options {
+    align-items: center;
+    flex-direction: column;
+  }
+}
